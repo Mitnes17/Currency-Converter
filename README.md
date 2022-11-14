@@ -2,7 +2,7 @@
 
 A simple currency converter application.
 
-Exchange rates data obtained by fetch API request.
+Exchange rates data was obtained using a fetch API request.
 
 Technology stack:
 
