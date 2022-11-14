@@ -1,3 +1,19 @@
+# Currency Converter
+
+A simple currency converter application.
+
+Exchange rates data obtained by fetch API request.
+
+Technology stack:
+
+-React
+
+-Styled Components
+
+-TypeScript
+
+You can see it on vercel: https://currency-converter-pied-three.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
