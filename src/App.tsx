@@ -29,7 +29,7 @@ function App() {
     setToValue(value);
     const price: number = +value / ratesRef.current[toCurrency];
     const result = price * ratesRef.current[fromCurrency];
-    setFromValue(result.toString());
+    setFromValue(result.toFixed(4).toString());
   };
 
   const [fromCurrency, setFromCurrency] = useState('MDL');
@@ -47,7 +47,7 @@ function App() {
       setFromValue(value);
       const price: number = +value / ratesRef.current[fromCurrency];
       const result = price * ratesRef.current[toCurrency];
-      setToValue(result.toString());
+      setToValue(result.toFixed(4).toString());
     },
     [fromCurrency, ratesRef, toCurrency]
   );

@@ -1,7 +1,7 @@
 export type Props = {
   value: string;
   currency: string;
-  onChangeValue?: any;
-  onChangeCurrency?: any;
+  onChangeValue: any;
+  onChangeCurrency: any;
   fullList: Array;
 };

@@ -5,7 +5,7 @@ import * as S from './styled';
 const defaultCurrencies = ['MDL', 'USD', 'EUR', 'GBP', 'RON'];
 
 export const CurrencyBlock: FC<Props> = ({ value, currency, onChangeValue, onChangeCurrency }) => (
-  <S.Container>
+  <div>
     <S.List>
       {defaultCurrencies.map((cur) => (
         <S.Currency
@@ -23,5 +23,5 @@ export const CurrencyBlock: FC<Props> = ({ value, currency, onChangeValue, onCha
       type='number'
       placeholder={'0'}
     />
-  </S.Container>
+  </div>
 );
