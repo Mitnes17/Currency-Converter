@@ -9,4 +9,4 @@ export type Props = {
   fullList: Array<string>;
 };
 
-//////
+/////
