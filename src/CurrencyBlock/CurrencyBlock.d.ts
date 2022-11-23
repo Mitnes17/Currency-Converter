@@ -8,3 +8,5 @@ export type Props = {
   onChangeCurrency: (e: string) => void;
   fullList: Array<string>;
 };
+
+////
