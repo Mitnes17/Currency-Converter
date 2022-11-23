@@ -1,7 +1,10 @@
+import { Rates } from '../App';
+
 export type Props = {
-  value: string;
+  value: number;
   currency: string;
-  onChangeValue: any;
-  onChangeCurrency: any;
-  fullList: Array;
+  rates: Rates | null;
+  onChangeValue: (e: number) => void;
+  onChangeCurrency: (e: string) => void;
+  fullList: Array<string>;
 };
